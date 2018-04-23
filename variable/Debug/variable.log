@@ -1,8 +1,9 @@
-﻿生成启动时间为 2018/4/22 14:32:24。
+﻿生成启动时间为 2018/4/23 14:20:42。
      1>项目“D:\workplace\C-\variable\variable.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\compress\visualStudio2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt variable.cpp
          variable.cpp
+     1>d:\workplace\c-\variable\variable.cpp(33): warning C4101: “arr”: 未引用的局部变量
        Link:
          D:\compress\visualStudio2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workplace\C-\variable\Debug\variable.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workplace\C-\variable\Debug\variable.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workplace\C-\variable\Debug\variable.lib" /MACHINE:X86 Debug\variable.obj
          variable.vcxproj -> D:\workplace\C-\variable\Debug\variable.exe
@@ -10,4 +11,4 @@
 
 生成成功。
 
-已用时间 00:00:00.40
+已用时间 00:00:00.39
